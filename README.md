@@ -7,11 +7,12 @@ This freely distributable re-implementation of _RmTM_ has been created so you do
 
 Note: you still need the copyrighted `CDTV.tm` file to make bootable CDTV ISOs on anything older than CDTV OS 2.35. There is no way around that, at the moment. I fully realize that, at first glance, this might make the existence of this free implementation of _RmTM_ seem pointless, but there are use cases and benefits.
 
-- You can distribute a CDTV ISO without the `CDTV.tm` file and ask end users to supply the `CDTV.tm` file and provide a script to inject it into the ISO.
-- Having a freely distributable _RmTM_ is one less file end users need to provide
+- You can distribute a "clean" CDTV ISO without the `CDTV.tm` file and ask end users to supply the `CDTV.tm` file and provide a script to inject it into the ISO.
+- Having a freely distributable _RmTM_ is one less file that end users need to provide for your clean ISO.
 - You can always call _RmTM_ from your startup-sequence. On non-CDTV systems, it just exits cleanly. This makes the development and build process of CDTV titles simpler.
+- It's 10 times smaller in size than Commodore's _RmTM_ ;-)
 
-## How to build or instatll RmTM
+## How to build or install RmTM
 
 _RmTM_ comes as a standalone binary that you can install and run anywhere. It is compatible with Kickstart 1.3 and higher.
 
