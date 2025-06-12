@@ -19,7 +19,9 @@ Download the latest release, including source code, from the releases page.
 
 You can also build _RmTM_ yourself:
 
+```
 ENVIRONMENT=release make rmtm
+```
 
 The build will be available in `build/rmtm`.
 
